@@ -6,8 +6,6 @@
     </a>
 </div> -->
 
-<br/>
-
 <p align="center">
     <img src="./img/ibois_collision_expl.jpg" width="400">
 </p>
@@ -32,3 +30,5 @@
 </div>
 
 <br />
+
+**collide** is a simple script to calculate and output data concerning the collision of a set of stones. It is developed in the frame of a collaboration between IBOIS lab (PI: [Andrea Settimi](andrea.settimi@epfl.ch)) and EESD lab (PI: [Savvas Saloustros](savvas.saloustros@epfl.ch)) at EPFL
