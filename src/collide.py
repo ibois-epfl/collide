@@ -46,9 +46,12 @@ def main() -> None:
     mesh_A.collisions = contact_names
 
     res = tm.boolean.intersection([mesh_A.trimesh, mesh_B.trimesh], engine="blender")
+    print(f"Volume of intersection: {res.volume}")
 
-    print(type(res))
-    print(res)
+
+
+    # visualizer
+
 
     # o3d_res = res.as_open3d.paint_uniform_color([1, 0.706, 0])
     o3d_res = res.as_open3d.paint_uniform_color([1, 0.706, 0])
@@ -58,7 +61,6 @@ def main() -> None:
     meshA = mesh_A.trimesh.as_open3d
     meshA = o3d.geometry.LineSet.create_from_triangle_mesh(meshA)
 
-    # visualizer
 
     # # option1
     # mat = o3d.visualization.rendering.MaterialRecord()

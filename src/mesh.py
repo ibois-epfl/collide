@@ -16,12 +16,15 @@ class MeshContainer:
 
     def load_trimesh(self, path : str):
         if path is not None:
-            self.path = path
             self.trimesh = tm.load(path)
-            self._vertices = self.trimesh.vertices
-            self._faces = self.trimesh.faces
+            if self.trimesh.is_watertight:
+                self._vertices = self.trimesh.vertices
+                self._faces = self.trimesh.faces
+            else:
+                raise Exception("Mesh is not watertight")
         else:
             raise ValueError("Path is None")
+        self.path = path
 
     @property
     def name(self):
