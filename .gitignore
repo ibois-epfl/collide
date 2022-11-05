@@ -1,6 +1,10 @@
 # >>>>>>>>>>>>> Collide specs >>>>>>>>>>>>>>
 data/
 data/*
+data/**
+out/
+out/*
+out/**
 
 # >>>>>>>>>>>>> VScode IDE >>>>>>>>>>>>>
 .vscode/*
