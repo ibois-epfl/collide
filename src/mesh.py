@@ -18,6 +18,8 @@ class MeshContainer:
 
         self._is_watertight = None
 
+        self._volume = None
+
         self.is_colliding = False
         self.collisions = set()
 
@@ -109,3 +111,16 @@ class MeshContainer:
         if self._is_watertight is None:
             self._is_watertight = self.trimesh.is_watertight
         return self._is_watertight
+
+    @property
+    def volume(self):
+        if self._volume is None:
+            self._volume = self.trimesh.volume
+        return self._volume
+    
+    @volume.setter
+    def volume(self, value : float):
+        if isinstance(value, float):
+            self._volume = value
+        else:
+            raise TypeError("[ERROR]: No type float")

@@ -6,15 +6,14 @@ import os
 
 import log
 logger = log.setup_custom_logger('root')
+from mesh import MeshContainer
+import util
 
 import open3d as o3d
 import trimesh as tm
-from mesh import MeshContainer
 import numpy as np
-# import graphviz
-
+import graphviz
 from tqdm import tqdm
-import util
 
 def main() -> None:
 
@@ -56,8 +55,7 @@ def main() -> None:
     # ------------------------------------------------------------------->
     logger.debug(f"[INFO]: calculate and store mesh intersections")
     mesh_x_dict : dict = {}
-    # use tqdm to show progress bar
-    for mesh in tqdm(mesh_dict.values()):
+    for mesh in tqdm(mesh_dict.values(), bar_format=util.BFORMAT):
         if mesh.is_colliding:
             for contact in mesh.collisions:
                 mesh_x_name = mesh.name + contact
@@ -65,13 +63,64 @@ def main() -> None:
                     continue
 
                 mesh_x = MeshContainer(name=mesh_x_name)
-                mesh_x.trimesh = tm.boolean.intersection([mesh.trimesh, mesh_dict[contact].trimesh],
-                                                            engine="blender")
-                
+                mesh_x.trimesh = tm.boolean.intersection([mesh.trimesh, mesh_dict[contact].trimesh], engine="blender")
                 if mesh_x.is_watertight:
                     mesh_x_dict[mesh_x.name] = mesh_x
                 else:
                     logger.debug(f"[WARN]: Intersection {mesh}-{contact} is not watertight!")
+
+    # ------------------------------------------------------------------->
+    logger.debug(f"[INFO]: output mesh intersections .ply files")
+    for mesh in tqdm(mesh_x_dict.values(), bar_format=util.BFORMAT):
+        mesh.trimesh.export(OUT_DIR + mesh.name + ".ply")
+        logger.debug(f"[INFO]: {mesh} exported to {OUT_DIR + mesh.name + '.ply'}")
+
+    # ------------------------------------------------------------------->
+    logger.debug(f"[INFO]: run analysis/graph on mesh intersections and output to .txt file")
+    with open(OUT_DIR + "analysis.txt", "w") as f:
+
+        # standard deviation of volume
+        std_dev = 0.0
+        for mesh in mesh_dict.values():
+            if mesh.is_colliding:
+                mesh_x_volume = 0.0
+                for mesh_x in mesh_x_dict.values():
+                    if mesh_x.name.startswith(mesh.name):
+                        mesh_x_volume += mesh_x.volume
+                mesh.x_volume = mesh_x_volume
+                mesh.x_pourcentage = mesh_x_volume / mesh.volume
+                std_dev += (mesh.x_pourcentage - 0.5)**2
+        std_dev = np.sqrt(std_dev / len(mesh_dict))
+        msg_stdev : str = f"Standard deviation of object stone pourcentage [%]: {std_dev}"
+        logger.debug(f"[ANSYS]: {msg_stdev}")
+        f.write(msg_stdev + '\n')
+
+        # total volume of the intersections
+        total_x_volume = 0.0
+        for mesh_x in mesh_x_dict.values():
+            total_x_volume += mesh_x.volume
+            msg_vol : str = f"Intersected mesh total volume [m3]: {total_x_volume}"
+        logger.debug(f"[ANSYS]: {msg_vol}")
+        f.write(msg_vol + '\n')
+
+        # output table with values
+        f.write("index_obj_a" +
+                 "index_obj_b" +
+                 "mesh_total_obj_pair_vol" +
+                 "mesh_intersected_vol" +
+                 "pourcentage_split_vol[%]" + '\n')
+        
+        # <---- continue here  ---->
+
+
+    logger.debug(f"[INFO]: output collision graph")
+    dot = graphviz.Digraph(comment='Collision graph')
+    for mesh in mesh_dict.values():
+        if mesh.is_colliding:
+            dot.node(mesh.name, mesh.name)
+            for contact in mesh.collisions:
+                dot.edge(mesh.name, contact)
+    dot.render(OUT_DIR + 'collision_graph')
 
     # ------------------------------------------------------------------->
     logger.debug(f"[INFO]: visualization")

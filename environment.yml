@@ -13,4 +13,5 @@ dependencies:
      - cython==0.29.23
      - python-fcl==0.7.0.1
      - tqdm==4.64.1
+     - graphviz==0.20.1
    - git
