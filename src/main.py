@@ -16,11 +16,6 @@ import numpy as np
 from tqdm import tqdm
 import util
 
-CLR_ORANGE = [1, 0.706, 0]
-CLR_LIGHT_GRAY = [0.8, 0.8, 0.8]
-CLR_BLACK = [0, 0, 0]
-
-
 def main() -> None:
 
     DATA_DIR : str = "./data/"
@@ -45,18 +40,18 @@ def main() -> None:
 
     # ------------------------------------------------------------------->
     logger.debug(f"[INFO]: start collision analysis")
-    for i,mesh in enumerate(mesh_dict.values()):
-            is_collision, contact_names = tm_CollManager.in_collision_single(mesh.trimesh,
-                                                                    transform=None,
-                                                                    return_names=True,
-                                                                    return_data=False)
-            if is_collision:
+    is_collision, contact_names = tm_CollManager.in_collision_internal(return_names=True,
+                                                                       return_data=False)
+    for coll in contact_names:
+        for mesh in mesh_dict.values():
+            if mesh.name in coll:
                 mesh.is_colliding = True
-                contact_names.remove(mesh.name)
-                mesh.collisions = contact_names
-                logger.debug(f"[WARN]: {mesh} is colliding with {contact_names}")
-            else:
-                logger.debug(f"[INFO]: {mesh} is not colliding")
+
+                idx = coll.index(mesh.name)
+                new_coll = coll[1-idx]
+                mesh.collisions.add(new_coll)
+
+                logger.debug(f"[WARN]: {mesh} is colliding with {mesh.collisions}")
 
     # ------------------------------------------------------------------->
     logger.debug(f"[INFO]: calculate and store mesh intersections")
@@ -80,7 +75,7 @@ def main() -> None:
     # ------------------------------------------------------------------->
     logger.debug(f"[INFO]: visualization")
     for mx in mesh_x_dict.values():
-        mx.o3dmesh.paint_uniform_color(CLR_ORANGE)
+        mx.o3dmesh.paint_uniform_color(util.Clr.ORANGE.value)
 
     o3d_txts : list = []
     for mesh in mesh_dict.values():
@@ -89,9 +84,9 @@ def main() -> None:
                                     font_size=30,
                                     density=10))
         if mesh.is_colliding:
-             mesh.o3dlineset.paint_uniform_color(CLR_LIGHT_GRAY)
+             mesh.o3dlineset.paint_uniform_color(util.Clr.LIGHT_GRAY.value)
         else:
-             mesh.o3dlineset.paint_uniform_color(CLR_BLACK)
+             mesh.o3dlineset.paint_uniform_color(util.Clr.BLACK.value)
 
     o3d.visualization.draw_geometries([*[mx.o3dmesh for mx in mesh_x_dict.values()],
                                        *[m.o3dlineset for m in mesh_dict.values()],

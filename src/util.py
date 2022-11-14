@@ -2,6 +2,13 @@ import numpy as np
 import open3d as o3d
 from PIL import Image, ImageFont, ImageDraw
 from pyquaternion import Quaternion
+from enum import Enum
+
+class Clr(Enum):
+    ORANGE = [1, 0.7, 0]
+    LIGHT_GRAY = [0.8, 0.8, 0.8]
+    BLACK = [0, 0, 0]
+    RED = [1, 0, 0]
 
 def text_3d(text, pos, direction=None, degree=0.0, density=10, font='/usr/share/fonts/truetype/freefont/FreeMono.ttf', font_size=10):
         """

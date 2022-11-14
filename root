@@ -5709,3 +5709,999 @@ DEBUG:trimesh:face_normals didn't match triangles, ignoring!
 DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1868, 3), faces.shape=(3732, 3))> using load_stl
 DEBUG:trimesh:load_mesh executed in 0.0041 seconds.
 DEBUG:root:[INFO]: visualization
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0117 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0177 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0216 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0133 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {'c'}
+DEBUG:root:[WARN]: b) is colliding with {'d'}
+DEBUG:root:[WARN]: c) is colliding with {'a'}
+DEBUG:root:[WARN]: d) is colliding with {'b'}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0034 seconds.
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:Exporting 16420 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1868, 3), faces.shape=(3732, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0040 seconds.
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0033 seconds.
+DEBUG:trimesh:Exporting 16420 faces as STL
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1868, 3), faces.shape=(3732, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0039 seconds.
+DEBUG:root:[INFO]: visualization
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0120 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0173 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0216 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {'b'}
+DEBUG:root:[WARN]: b) is colliding with {'a'}
+DEBUG:root:[WARN]: c) is colliding with {'a'}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1816, 3), faces.shape=(3628, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0040 seconds.
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1816, 3), faces.shape=(3628, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0040 seconds.
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0033 seconds.
+DEBUG:root:[INFO]: visualization
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0122 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0206 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0217 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0131 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {'c'}
+DEBUG:root:[WARN]: b) is colliding with {'d'}
+DEBUG:root:[WARN]: c) is colliding with {'a'}
+DEBUG:root:[WARN]: d) is colliding with {'b'}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0033 seconds.
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:Exporting 16420 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1868, 3), faces.shape=(3732, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0039 seconds.
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0033 seconds.
+DEBUG:trimesh:Exporting 16420 faces as STL
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1868, 3), faces.shape=(3732, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0041 seconds.
+DEBUG:root:[INFO]: visualization
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0120 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0175 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0219 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0132 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {'c'}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0032 seconds.
+DEBUG:root:[INFO]: visualization
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0123 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0183 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0219 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0137 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {'c'}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0034 seconds.
+DEBUG:root:[INFO]: visualization
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0117 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0183 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0219 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0134 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {'c'}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0033 seconds.
+DEBUG:root:[INFO]: visualization
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0122 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0177 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0228 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0146 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {'c'}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0033 seconds.
+DEBUG:root:[INFO]: visualization
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0122 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0177 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0227 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0140 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {'c'}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0034 seconds.
+DEBUG:root:[INFO]: visualization
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0144 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0183 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0226 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0141 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {'c'}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0033 seconds.
+DEBUG:root:[INFO]: visualization
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0121 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0180 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0218 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0134 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {'c'}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0032 seconds.
+DEBUG:root:[INFO]: visualization
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0120 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0186 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0225 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0136 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {'c'}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0034 seconds.
+DEBUG:root:[INFO]: visualization
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0113 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0187 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0225 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0143 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {'c'}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0033 seconds.
+DEBUG:root:[INFO]: visualization
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0120 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0182 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0222 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0134 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {'c'}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0033 seconds.
+DEBUG:root:[INFO]: visualization
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0120 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0174 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0215 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0134 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {'c'}
+DEBUG:root:[WARN]: b) is colliding with {'d'}
+DEBUG:root:[WARN]: c) is colliding with {'a'}
+DEBUG:root:[WARN]: d) is colliding with {'b'}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0033 seconds.
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:Exporting 16420 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1868, 3), faces.shape=(3732, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0040 seconds.
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0033 seconds.
+DEBUG:trimesh:Exporting 16420 faces as STL
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1868, 3), faces.shape=(3732, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0041 seconds.
+DEBUG:root:[INFO]: visualization
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(4598, 3), faces.shape=(9192, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0091 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0109 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0177 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7680, 3), faces.shape=(15356, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0130 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7896, 3), faces.shape=(15788, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0131 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0214 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0132 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {'f'}
+DEBUG:root:[WARN]: b) is colliding with {'c'}
+DEBUG:root:[WARN]: c) is colliding with {'g'}
+DEBUG:root:[WARN]: d) is colliding with {'c'}
+DEBUG:root:[WARN]: e) is colliding with {'f'}
+DEBUG:root:[WARN]: f) is colliding with {'e'}
+DEBUG:root:[WARN]: g) is colliding with {'c'}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:trimesh:Exporting 9192 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(296, 3), faces.shape=(588, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0017 seconds.
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1816, 3), faces.shape=(3628, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0040 seconds.
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:Exporting 16420 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1868, 3), faces.shape=(3732, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0042 seconds.
+DEBUG:trimesh:Exporting 15356 faces as STL
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(2259, 3), faces.shape=(4514, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0046 seconds.
+DEBUG:trimesh:Exporting 15788 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1626, 3), faces.shape=(3248, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0036 seconds.
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:Exporting 15788 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1626, 3), faces.shape=(3248, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0037 seconds.
+DEBUG:trimesh:Exporting 16420 faces as STL
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1868, 3), faces.shape=(3732, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0041 seconds.
+DEBUG:root:[INFO]: visualization
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(4598, 3), faces.shape=(9192, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0097 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0154 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0222 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7680, 3), faces.shape=(15356, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0126 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7896, 3), faces.shape=(15788, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0132 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0213 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0132 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(4598, 3), faces.shape=(9192, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0090 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0102 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0173 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7680, 3), faces.shape=(15356, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0127 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7896, 3), faces.shape=(15788, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0131 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0215 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0134 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(4598, 3), faces.shape=(9192, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0092 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0155 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0182 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7680, 3), faces.shape=(15356, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0129 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7896, 3), faces.shape=(15788, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0130 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0208 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0129 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {('e', 'f'), ('c', 'g'), ('c', 'd'), ('b', 'c'), ('a', 'f'), ('b', 'f'), ('b', 'd')}
+DEBUG:root:[WARN]: b) is colliding with {('e', 'f'), ('c', 'g'), ('c', 'd'), ('b', 'c'), ('a', 'f'), ('b', 'f'), ('b', 'd')}
+DEBUG:root:[WARN]: c) is colliding with {('e', 'f'), ('c', 'g'), ('c', 'd'), ('b', 'c'), ('a', 'f'), ('b', 'f'), ('b', 'd')}
+DEBUG:root:[WARN]: d) is colliding with {('e', 'f'), ('c', 'g'), ('c', 'd'), ('b', 'c'), ('a', 'f'), ('b', 'f'), ('b', 'd')}
+DEBUG:root:[WARN]: e) is colliding with {('e', 'f'), ('c', 'g'), ('c', 'd'), ('b', 'c'), ('a', 'f'), ('b', 'f'), ('b', 'd')}
+DEBUG:root:[WARN]: f) is colliding with {('e', 'f'), ('c', 'g'), ('c', 'd'), ('b', 'c'), ('a', 'f'), ('b', 'f'), ('b', 'd')}
+DEBUG:root:[WARN]: g) is colliding with {('e', 'f'), ('c', 'g'), ('c', 'd'), ('b', 'c'), ('a', 'f'), ('b', 'f'), ('b', 'd')}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(4598, 3), faces.shape=(9192, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0094 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0107 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0174 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7680, 3), faces.shape=(15356, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0128 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7896, 3), faces.shape=(15788, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0131 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0211 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0133 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(4598, 3), faces.shape=(9192, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0089 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0101 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0175 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7680, 3), faces.shape=(15356, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0128 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7896, 3), faces.shape=(15788, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0130 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0209 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0131 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: a) is colliding with {('e', 'f'), ('c', 'd'), ('c', 'g'), ('b', 'd'), ('a', 'f'), ('b', 'c'), ('b', 'f')}
+DEBUG:root:[WARN]: b) is colliding with {('e', 'f'), ('c', 'd'), ('c', 'g'), ('b', 'd'), ('a', 'f'), ('b', 'c'), ('b', 'f')}
+DEBUG:root:[WARN]: c) is colliding with {('e', 'f'), ('c', 'd'), ('c', 'g'), ('b', 'd'), ('a', 'f'), ('b', 'c'), ('b', 'f')}
+DEBUG:root:[WARN]: d) is colliding with {('e', 'f'), ('c', 'd'), ('c', 'g'), ('b', 'd'), ('a', 'f'), ('b', 'c'), ('b', 'f')}
+DEBUG:root:[WARN]: e) is colliding with {('e', 'f'), ('c', 'd'), ('c', 'g'), ('b', 'd'), ('a', 'f'), ('b', 'c'), ('b', 'f')}
+DEBUG:root:[WARN]: f) is colliding with {('e', 'f'), ('c', 'd'), ('c', 'g'), ('b', 'd'), ('a', 'f'), ('b', 'c'), ('b', 'f')}
+DEBUG:root:[WARN]: g) is colliding with {('e', 'f'), ('c', 'd'), ('c', 'g'), ('b', 'd'), ('a', 'f'), ('b', 'c'), ('b', 'f')}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(4598, 3), faces.shape=(9192, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0091 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0111 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0172 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7680, 3), faces.shape=(15356, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0132 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7896, 3), faces.shape=(15788, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0136 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0209 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0130 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: g) is colliding with {('e', 'f'), ('c', 'g'), ('b', 'd'), ('b', 'c'), ('c', 'd'), ('a', 'f'), ('b', 'f')}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(4598, 3), faces.shape=(9192, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0090 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0105 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0174 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7680, 3), faces.shape=(15356, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0128 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7896, 3), faces.shape=(15788, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0132 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0210 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0131 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(4598, 3), faces.shape=(9192, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0090 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0109 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0179 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7680, 3), faces.shape=(15356, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0135 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7896, 3), faces.shape=(15788, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0133 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0213 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0131 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: b) is colliding with {('b', 'd'), ('e', 'f'), ('b', 'f'), ('c', 'g'), ('a', 'f'), ('c', 'd'), ('b', 'c')}
+DEBUG:root:[WARN]: d) is colliding with {('b', 'd'), ('e', 'f'), ('b', 'f'), ('c', 'g'), ('a', 'f'), ('c', 'd'), ('b', 'c')}
+DEBUG:root:[WARN]: e) is colliding with {('b', 'd'), ('e', 'f'), ('b', 'f'), ('c', 'g'), ('a', 'f'), ('c', 'd'), ('b', 'c')}
+DEBUG:root:[WARN]: f) is colliding with {('b', 'd'), ('e', 'f'), ('b', 'f'), ('c', 'g'), ('a', 'f'), ('c', 'd'), ('b', 'c')}
+DEBUG:root:[WARN]: b) is colliding with {('b', 'd'), ('e', 'f'), ('b', 'f'), ('c', 'g'), ('a', 'f'), ('c', 'd'), ('b', 'c')}
+DEBUG:root:[WARN]: f) is colliding with {('b', 'd'), ('e', 'f'), ('b', 'f'), ('c', 'g'), ('a', 'f'), ('c', 'd'), ('b', 'c')}
+DEBUG:root:[WARN]: c) is colliding with {('b', 'd'), ('e', 'f'), ('b', 'f'), ('c', 'g'), ('a', 'f'), ('c', 'd'), ('b', 'c')}
+DEBUG:root:[WARN]: g) is colliding with {('b', 'd'), ('e', 'f'), ('b', 'f'), ('c', 'g'), ('a', 'f'), ('c', 'd'), ('b', 'c')}
+DEBUG:root:[WARN]: a) is colliding with {('b', 'd'), ('e', 'f'), ('b', 'f'), ('c', 'g'), ('a', 'f'), ('c', 'd'), ('b', 'c')}
+DEBUG:root:[WARN]: f) is colliding with {('b', 'd'), ('e', 'f'), ('b', 'f'), ('c', 'g'), ('a', 'f'), ('c', 'd'), ('b', 'c')}
+DEBUG:root:[WARN]: c) is colliding with {('b', 'd'), ('e', 'f'), ('b', 'f'), ('c', 'g'), ('a', 'f'), ('c', 'd'), ('b', 'c')}
+DEBUG:root:[WARN]: d) is colliding with {('b', 'd'), ('e', 'f'), ('b', 'f'), ('c', 'g'), ('a', 'f'), ('c', 'd'), ('b', 'c')}
+DEBUG:root:[WARN]: b) is colliding with {('b', 'd'), ('e', 'f'), ('b', 'f'), ('c', 'g'), ('a', 'f'), ('c', 'd'), ('b', 'c')}
+DEBUG:root:[WARN]: c) is colliding with {('b', 'd'), ('e', 'f'), ('b', 'f'), ('c', 'g'), ('a', 'f'), ('c', 'd'), ('b', 'c')}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(4598, 3), faces.shape=(9192, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0091 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0104 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0172 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7680, 3), faces.shape=(15356, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0128 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7896, 3), faces.shape=(15788, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0131 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0210 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0132 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: c) is colliding with {('c', 'g'), ('e', 'f'), ('b', 'd'), ('b', 'c'), ('c', 'd'), ('a', 'f'), ('b', 'f')}
+DEBUG:root:[WARN]: g) is colliding with {('c', 'g'), ('e', 'f'), ('b', 'd'), ('b', 'c'), ('c', 'd'), ('a', 'f'), ('b', 'f')}
+DEBUG:root:[WARN]: e) is colliding with {('c', 'g'), ('e', 'f'), ('b', 'd'), ('b', 'c'), ('c', 'd'), ('a', 'f'), ('b', 'f')}
+DEBUG:root:[WARN]: f) is colliding with {('c', 'g'), ('e', 'f'), ('b', 'd'), ('b', 'c'), ('c', 'd'), ('a', 'f'), ('b', 'f')}
+DEBUG:root:[WARN]: b) is colliding with {('c', 'g'), ('e', 'f'), ('b', 'd'), ('b', 'c'), ('c', 'd'), ('a', 'f'), ('b', 'f')}
+DEBUG:root:[WARN]: d) is colliding with {('c', 'g'), ('e', 'f'), ('b', 'd'), ('b', 'c'), ('c', 'd'), ('a', 'f'), ('b', 'f')}
+DEBUG:root:[WARN]: b) is colliding with {('c', 'g'), ('e', 'f'), ('b', 'd'), ('b', 'c'), ('c', 'd'), ('a', 'f'), ('b', 'f')}
+DEBUG:root:[WARN]: c) is colliding with {('c', 'g'), ('e', 'f'), ('b', 'd'), ('b', 'c'), ('c', 'd'), ('a', 'f'), ('b', 'f')}
+DEBUG:root:[WARN]: c) is colliding with {('c', 'g'), ('e', 'f'), ('b', 'd'), ('b', 'c'), ('c', 'd'), ('a', 'f'), ('b', 'f')}
+DEBUG:root:[WARN]: d) is colliding with {('c', 'g'), ('e', 'f'), ('b', 'd'), ('b', 'c'), ('c', 'd'), ('a', 'f'), ('b', 'f')}
+DEBUG:root:[WARN]: a) is colliding with {('c', 'g'), ('e', 'f'), ('b', 'd'), ('b', 'c'), ('c', 'd'), ('a', 'f'), ('b', 'f')}
+DEBUG:root:[WARN]: f) is colliding with {('c', 'g'), ('e', 'f'), ('b', 'd'), ('b', 'c'), ('c', 'd'), ('a', 'f'), ('b', 'f')}
+DEBUG:root:[WARN]: b) is colliding with {('c', 'g'), ('e', 'f'), ('b', 'd'), ('b', 'c'), ('c', 'd'), ('a', 'f'), ('b', 'f')}
+DEBUG:root:[WARN]: f) is colliding with {('c', 'g'), ('e', 'f'), ('b', 'd'), ('b', 'c'), ('c', 'd'), ('a', 'f'), ('b', 'f')}
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(4598, 3), faces.shape=(9192, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0086 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0108 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0177 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7680, 3), faces.shape=(15356, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0131 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7896, 3), faces.shape=(15788, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0133 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0213 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0140 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: c) is colliding with ('c', 'g')
+DEBUG:root:[WARN]: g) is colliding with ('c', 'g')
+DEBUG:root:[WARN]: b) is colliding with ('b', 'c')
+DEBUG:root:[WARN]: c) is colliding with ('b', 'c')
+DEBUG:root:[WARN]: b) is colliding with ('b', 'f')
+DEBUG:root:[WARN]: f) is colliding with ('b', 'f')
+DEBUG:root:[WARN]: c) is colliding with ('c', 'd')
+DEBUG:root:[WARN]: d) is colliding with ('c', 'd')
+DEBUG:root:[WARN]: a) is colliding with ('a', 'f')
+DEBUG:root:[WARN]: f) is colliding with ('a', 'f')
+DEBUG:root:[WARN]: b) is colliding with ('b', 'd')
+DEBUG:root:[WARN]: d) is colliding with ('b', 'd')
+DEBUG:root:[WARN]: e) is colliding with ('e', 'f')
+DEBUG:root:[WARN]: f) is colliding with ('e', 'f')
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(4598, 3), faces.shape=(9192, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0091 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0137 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0187 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7680, 3), faces.shape=(15356, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0129 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7896, 3), faces.shape=(15788, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0131 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0213 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0132 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: b) is colliding with {('c',)}
+DEBUG:root:[WARN]: c) is colliding with {('b',)}
+DEBUG:root:[WARN]: b) is colliding with {('c',), ('d',)}
+DEBUG:root:[WARN]: d) is colliding with {('b',)}
+DEBUG:root:[WARN]: e) is colliding with {('f',)}
+DEBUG:root:[WARN]: f) is colliding with {('e',)}
+DEBUG:root:[WARN]: c) is colliding with {('b',), ('d',)}
+DEBUG:root:[WARN]: d) is colliding with {('c',), ('b',)}
+DEBUG:root:[WARN]: b) is colliding with {('c',), ('d',), ('f',)}
+DEBUG:root:[WARN]: f) is colliding with {('e',), ('b',)}
+DEBUG:root:[WARN]: a) is colliding with {('f',)}
+DEBUG:root:[WARN]: f) is colliding with {('e',), ('b',), ('a',)}
+DEBUG:root:[WARN]: c) is colliding with {('b',), ('g',), ('d',)}
+DEBUG:root:[WARN]: g) is colliding with {('c',)}
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(4598, 3), faces.shape=(9192, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0091 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0146 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0195 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7680, 3), faces.shape=(15356, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0129 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7896, 3), faces.shape=(15788, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0130 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0214 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0131 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: b) is colliding with {'f'}
+DEBUG:root:[WARN]: f) is colliding with {'b'}
+DEBUG:root:[WARN]: b) is colliding with {'f', 'c'}
+DEBUG:root:[WARN]: c) is colliding with {'b'}
+DEBUG:root:[WARN]: e) is colliding with {'f'}
+DEBUG:root:[WARN]: f) is colliding with {'e', 'b'}
+DEBUG:root:[WARN]: a) is colliding with {'f'}
+DEBUG:root:[WARN]: f) is colliding with {'e', 'a', 'b'}
+DEBUG:root:[WARN]: b) is colliding with {'f', 'd', 'c'}
+DEBUG:root:[WARN]: d) is colliding with {'b'}
+DEBUG:root:[WARN]: c) is colliding with {'g', 'b'}
+DEBUG:root:[WARN]: g) is colliding with {'c'}
+DEBUG:root:[WARN]: c) is colliding with {'g', 'd', 'b'}
+DEBUG:root:[WARN]: d) is colliding with {'c', 'b'}
+DEBUG:root:[INFO]: Logger root setup
+DEBUG:trimesh:falling back to hashlib hashing: `pip install xxhash`for 50x faster cache checks
+DEBUG:root:[INFO]: load meshes on memory files from container
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(4598, 3), faces.shape=(9192, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0091 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(5846, 3), faces.shape=(11688, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0104 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(9533, 3), faces.shape=(19062, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0173 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7680, 3), faces.shape=(15356, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0127 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(7896, 3), faces.shape=(15788, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0130 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(11904, 3), faces.shape=(23804, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0211 seconds.
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(8212, 3), faces.shape=(16420, 3))> using load_ply
+DEBUG:trimesh:load_mesh executed in 0.0132 seconds.
+DEBUG:root:[INFO]: load meshes to collision manager
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:trimesh:generating face normals
+DEBUG:root:[INFO]: start collision analysis
+DEBUG:root:[WARN]: b) is colliding with {'f'}
+DEBUG:root:[WARN]: f) is colliding with {'b'}
+DEBUG:root:[WARN]: c) is colliding with {'g'}
+DEBUG:root:[WARN]: g) is colliding with {'c'}
+DEBUG:root:[WARN]: c) is colliding with {'g', 'd'}
+DEBUG:root:[WARN]: d) is colliding with {'c'}
+DEBUG:root:[WARN]: b) is colliding with {'f', 'd'}
+DEBUG:root:[WARN]: d) is colliding with {'c', 'b'}
+DEBUG:root:[WARN]: b) is colliding with {'f', 'c', 'd'}
+DEBUG:root:[WARN]: c) is colliding with {'b', 'g', 'd'}
+DEBUG:root:[WARN]: e) is colliding with {'f'}
+DEBUG:root:[WARN]: f) is colliding with {'e', 'b'}
+DEBUG:root:[WARN]: a) is colliding with {'f'}
+DEBUG:root:[WARN]: f) is colliding with {'a', 'e', 'b'}
+DEBUG:root:[INFO]: calculate and store mesh intersections
+DEBUG:trimesh:Exporting 9192 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(296, 3), faces.shape=(588, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0018 seconds.
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0034 seconds.
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1816, 3), faces.shape=(3628, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0041 seconds.
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:Exporting 15356 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(425, 3), faces.shape=(846, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0020 seconds.
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1816, 3), faces.shape=(3628, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0041 seconds.
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:Exporting 16420 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1868, 3), faces.shape=(3732, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0041 seconds.
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:Exporting 15356 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(2259, 3), faces.shape=(4514, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0049 seconds.
+DEBUG:trimesh:Exporting 15356 faces as STL
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(2259, 3), faces.shape=(4514, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0047 seconds.
+DEBUG:trimesh:Exporting 15356 faces as STL
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(425, 3), faces.shape=(846, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0019 seconds.
+DEBUG:trimesh:Exporting 15788 faces as STL
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1626, 3), faces.shape=(3248, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0037 seconds.
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:Exporting 9192 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(296, 3), faces.shape=(588, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0017 seconds.
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:Exporting 15788 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1626, 3), faces.shape=(3248, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0037 seconds.
+DEBUG:trimesh:Exporting 23804 faces as STL
+DEBUG:trimesh:Exporting 11688 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1355, 3), faces.shape=(2706, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0033 seconds.
+DEBUG:trimesh:Exporting 16420 faces as STL
+DEBUG:trimesh:Exporting 19062 faces as STL
+DEBUG:trimesh:face_normals didn't match triangles, ignoring!
+DEBUG:trimesh:loaded <trimesh.Trimesh(vertices.shape=(1868, 3), faces.shape=(3732, 3))> using load_stl
+DEBUG:trimesh:load_mesh executed in 0.0040 seconds.
+DEBUG:root:[INFO]: visualization
