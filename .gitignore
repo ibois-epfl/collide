@@ -5,6 +5,7 @@ data/**
 out/
 out/*
 out/**
+__temp/
 
 # >>>>>>>>>>>>> VScode IDE >>>>>>>>>>>>>
 .vscode/*
