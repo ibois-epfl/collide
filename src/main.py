@@ -56,7 +56,8 @@ def main() -> None:
     # ------------------------------------------------------------------->
     logger.debug(f"[INFO]: calculate and store mesh intersections")
     mesh_x_dict : dict = {}
-    for i,mesh in enumerate(mesh_dict.values()):
+    # use tqdm to show progress bar
+    for mesh in tqdm(mesh_dict.values()):
         if mesh.is_colliding:
             for contact in mesh.collisions:
                 mesh_x_name = mesh.name + contact
