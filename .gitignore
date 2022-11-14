@@ -19,4 +19,6 @@ out/**
 
 # Built Visual Studio Code Extensions
 *.vsix
-s
+
+# >>>>>>>>>>>>> Python >>>>>>>>>>>>>
+__pycache__/
