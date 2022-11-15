@@ -23,3 +23,9 @@ __temp/
 
 # >>>>>>>>>>>>> Python >>>>>>>>>>>>>
 __pycache__/
+
+
+# >>>>>>>>>>>>> PyInstaller >>>>>>>>>>>>>
+build/
+dist/
+*.spec

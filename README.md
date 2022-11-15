@@ -67,11 +67,11 @@ c d 0.0385252926335249 0.0012272622917337075 3.185601478509569
 ```
 A 3D interactive visualization of the scene.
 
-<a><img src = "./img/output3d.png" height="300"/></a>
+<div align="center"><img src = "./img/output3d.png" height="300"/></div>
 
 The `.ply` files of the intersected mesh portions, as well as the graph intersection dependency.
 
-<a><img src = "./img/collision_graph.png" height="300"/></a>
+<div align="center"><img src = "./img/collision_graph.png" height="300"/></div>
 
 ## How to cite
 ```bibitex

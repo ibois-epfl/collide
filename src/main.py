@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# from reader.__main__ import main
 
 from string import ascii_lowercase as alc
 import os
