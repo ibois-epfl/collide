@@ -7,9 +7,7 @@
 <br/>
 
 <div align = "center">
-    <!-- <a href="https://zenodo.org/badge/latestdoi/452384523">
-        <img src="https://zenodo.org/badge/452384523.svg" alt="DOI">
-    </a> -->
+    <a href="https://zenodo.org/badge/latestdoi/561860845"><img src="https://zenodo.org/badge/561860845.svg" alt="DOI"></a>
     <a href = "https://img.shields.io/conda/vn/conda-forge/python">
         <img src = "https://img.shields.io/conda/vn/conda-forge/python" alt = "Conda (channel only)" />
     </a>
@@ -99,5 +97,13 @@ The `.ply` files of the intersected mesh portions, as well as the graph intersec
 
 ## How to cite
 ```bibitex
-
+@software{settimicollide2022,
+  doi = {10.5281/ZENODO.7324061},
+  url = {https://zenodo.org/record/7324061},
+  author = {Settimi, Andrea and Gamerro, Julien},
+  title = {ibois-epfl/collide: Release v1.0},
+  publisher = {Zenodo},
+  year = {2022},
+  copyright = {Open Access}
+}
 ```
