@@ -28,4 +28,6 @@ src/__pycache__/
 # >>>>>>>>>>>>> PyInstaller >>>>>>>>>>>>>
 build/
 dist/
+dist/*
+dist/**
 *.spec
