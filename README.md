@@ -53,7 +53,10 @@
 
 **collide** is a simple script to calculate and output data concerning the collision of a set of stones. It is developed in the frame of a collaboration between IBOIS lab (PI: [Andrea Settimi](andrea.settimi@epfl.ch)) and EESD lab (PI: [Savvas Saloustros](savvas.saloustros@epfl.ch)) at EPFL.
 
+In our work we used as a metrics to evaluate the success of our scanning techniques: in the case of additive structures, the more intersection you have the less performant your scanning pipeline result to be.
+
 ## Usage
+You can find some test meshes in the `/data_test` folder. ⚠️ Beware, the meshes need to be *watertight*!
 ### Linux
 First install conda and run the following command from the root of the repo:
 ```bash
@@ -75,7 +78,7 @@ collide.py
 [--print_graph PRINT_GRAPH] = output .pdf file with graph (0 or 1)
 ```
 ### Windows
-Run the `collidee.exe` from his folder with the terminal and the following flags:
+Run the `collidee.exe` (from the release package) from his folder with the terminal and the following flags:
 ```powershell
 > F:\collide_win\collide.exe --input_dir="./data/" --output_dir="./out/"
 ```
