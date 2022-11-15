@@ -25,9 +25,6 @@
     <a href = "https://github.com/ibois-epfl/augmented-stacking">
         <img src = "https://img.shields.io/badge/license-MIT-green--gray" alt = "License" />
     </a>
-    <a href = "http://hits.dwyl.com/ibois-epfl/augmented-stacking">
-	<img src = "https://hits.dwyl.com/ibois-epfl/augmented-stacking.svg?style=flat" alt = "Hints" />
-    </a>
 </div>
 <br/>
 
