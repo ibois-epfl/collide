@@ -34,6 +34,7 @@
 **collide** is a simple script to calculate and output data concerning the collision of a set of stones. It is developed in the frame of a collaboration between IBOIS lab (PI: [Andrea Settimi](andrea.settimi@epfl.ch)) and EESD lab (PI: [Savvas Saloustros](savvas.saloustros@epfl.ch)) at EPFL.
 
 ## Usage
+### Linux
 First install conda and run the following command from the root of the repo:
 ```bash
 conda env create -f environment.yml
@@ -41,11 +42,11 @@ conda activate collide
 ```
 For running the script:
 ```bash
-python './collide/src/main.py' --input_dir="./data/" --output_dir="./out/" --show_3d=0
+python './collide/src/collide.py' --input_dir="./data/" --output_dir="./out/" --show_3d=0
 ```
 with:
 ```bash
-main.py
+collide.py
 [--input_dir INPUT_DIR] = input directory (path)
 [--output_dir OUTPUT_DIR] = output directory (path)
 [--show_3d SHOW_3D] = show visualization (0 or 1)
@@ -53,8 +54,11 @@ main.py
 [--print_analysis PRINT_ANALYSIS] = output .txt file with analysis (0 or 1)
 [--print_graph PRINT_GRAPH] = output .pdf file with graph (0 or 1)
 ```
-
-
+### Windows
+Run the `collidee.exe` from his folder with the terminal and the following flags:
+```powershell
+> F:\collide_win\collide.exe --input_dir="./data/" --output_dir="./out/"
+```
 ## Outputs
 The script will generate `.txt` file with the following format and data:
 ```
