@@ -14,4 +14,5 @@ dependencies:
      - python-fcl==0.7.0.1
      - tqdm==4.64.1
      - graphviz==0.20.1
+     - pyinstaller==5.6.2
    - git
