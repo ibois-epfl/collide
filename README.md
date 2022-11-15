@@ -50,7 +50,7 @@
 
 **collide** is a simple script to calculate and output data concerning the collision of a set of stones. It is developed in the frame of a collaboration between IBOIS lab (PI: [Andrea Settimi](andrea.settimi@epfl.ch)) and EESD lab (PI: [Savvas Saloustros](savvas.saloustros@epfl.ch)) at EPFL.
 
-In our work we used as a metrics to evaluate the success of our scanning techniques: in the case of additive structures, the more intersection you have the less performant your scanning pipeline result to be.
+In our work we used as metrics to evaluate the success of our scanning techniques: in the case of additive structures, the more intersection you have the less performant your scanning pipeline result to be.
 
 ## Usage
 You can find some test meshes in the `/data_test` folder. ⚠️ Beware, the meshes need to be *watertight*!
