@@ -1,14 +1,34 @@
 <h1 align="center">collide</h1>
 
-<!-- <div align = "center">
-    <a href="https://zenodo.org/badge/latestdoi/452384523">
-        <img src="https://zenodo.org/badge/452384523.svg" alt="DOI">
-    </a>
-</div> -->
 
 <p align="center">
     <img src="./img/Screenshot from 2022-11-14 16-43-13.png" width="400">
 </p>
+<br/>
+
+<div align = "center">
+    <!-- <a href="https://zenodo.org/badge/latestdoi/452384523">
+        <img src="https://zenodo.org/badge/452384523.svg" alt="DOI">
+    </a> -->
+    <a href = "https://img.shields.io/conda/vn/conda-forge/python">
+        <img src = "https://img.shields.io/conda/vn/conda-forge/python" alt = "Conda (channel only)" />
+    </a>
+    <a href = "https://img.shields.io/badge/python-3.7%20%7C%203.8-brightgreen">
+        <img src = "https://img.shields.io/badge/python-3.7%20%7C%203.8-brightgreen" alt = "Conda (channel only)" />
+    </a>
+    <a href = "https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
+        <img src = "https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt = "win" height="20"/>
+    </a>
+    <a href = "https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+        <img src = "https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt = "Linux" height="20" />
+    </a>
+    <a href = "https://github.com/ibois-epfl/augmented-stacking">
+        <img src = "https://img.shields.io/badge/license-MIT-green--gray" alt = "License" />
+    </a>
+    <a href = "http://hits.dwyl.com/ibois-epfl/augmented-stacking">
+	<img src = "https://hits.dwyl.com/ibois-epfl/augmented-stacking.svg?style=flat" alt = "Hints" />
+    </a>
+</div>
 <br/>
 
 <div align = "center">
