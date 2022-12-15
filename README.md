@@ -51,7 +51,7 @@
 In our work we used as metrics to evaluate the success of our scanning techniques: in the case of additive structures, the more intersection you have the less performant your scanning pipeline result to be.
 
 ## Usage
-You can find some test meshes in the `/data_test` folder. ⚠️ Beware, the meshes need to be *watertight*!
+You can find some test meshes in the `/data_test` folder. ⚠️ Beware, the meshes need to be *watertight*! ⚠️
 ### Linux
 First install conda and run the following command from the root of the repo:
 ```bash
@@ -73,6 +73,8 @@ collide.py
 [--print_graph PRINT_GRAPH] = output .pdf file with graph (0 or 1)
 ```
 ### Windows
+ 
+⚠️ Beware, you need ot install graphviz and include it in PATH before using this script [here!](https://graphviz.org/download/) ⚠️
 Run the `collidee.exe` (from the release package) from his folder with the terminal and the following flags:
 ```powershell
 > F:\collide_win\collide.exe --input_dir="./data/" --output_dir="./out/"
