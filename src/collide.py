@@ -93,21 +93,19 @@ def main(input_dir : str,
             std_dev = 0.0
             for mesh in mesh_dict.values():
                 if mesh.is_colliding:      
-                    logger.debug(f"[DEBUG-INFO]: Colliding Stone name ",  mesh.name)
                     mesh_x_volume = 0.0     
                     count = 0
                     for mesh_x in mesh_x_dict.values():
                         if mesh_x.name.startswith(mesh.name): 
                             count +=1 # 
                             mesh_x_volume += mesh_x.volume 
-                            logger.debug(f"[DEBUG-INFO]: Pair Stone name ",  mesh_x.name)
                     mesh.x_volume = mesh_x_volume
                     mesh.x_pourcentage = mesh_x_volume / mesh.volume
-                    std_dev += (mesh.x_pourcentage - 0.5)**2
-            std_dev = np.sqrt(std_dev / len(mesh_dict))
-            msg_stdev : str = f"Standard deviation of object stone pourcentage [%]: {std_dev}"
-            logger.debug(f"[ANSYS]: {msg_stdev}")
-            f.write(msg_stdev + '\n')
+#                    std_dev += (mesh.x_pourcentage - 0.5)**2  
+#            std_dev = np.sqrt(std_dev / len(mesh_dict))
+#            msg_stdev : str = f"Standard deviation of object stone percentage [%]: {std_dev}" 
+#            logger.debug(f"[ANSYS]: {msg_stdev}")
+#            f.write(msg_stdev + '\n')
 
             # total volume of the intersections
             total_x_volume = 0.0
@@ -122,7 +120,7 @@ def main(input_dir : str,
                                 "index_obj_b" + ' ' +
                                 "mesh_total_obj_pair_vol" + ' ' +
                                 "mesh_intersected_vol" + ' ' +
-                                "pourcentage_split_vol[%]")
+                                "percentage_split_vol[%]")
             logger.debug(f"[ANSYS]: {msg_header_table}")
             f.write(msg_header_table + '\n')
             for key, value in mesh_x_dict.items():
